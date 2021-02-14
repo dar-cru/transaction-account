@@ -17,7 +17,7 @@ export const Connected = () => {
   const location = useLocation();
   const accountNumber = (location?.state as TransactionListProps)
     ?.accountNumber;
-  const { transactions, isLoading } = useSelector(
+  const { transactions, isLoading, error } = useSelector(
     (state: RootState) => state.transaction
   );
   const dispatch = useDispatch();
@@ -34,19 +34,15 @@ export const Connected = () => {
 
   return (
     <>
-      {isLoading ? (
-        <>Loading</>
-      ) : (
-        <>
-          {transactions?.length > 0 ? (
-            <TransactionsList transactions={transactions} />
-          ) : (
-            <InPageAlert
-              type="error"
-              message="There was an error retrieving your transactions. Transactions are not available for pending accounts."
-            />
-          )}
-        </>
+      {isLoading && <>Loading...</>}
+      {transactions?.length > 0 && !isLoading && (
+        <TransactionsList transactions={transactions} />
+      )}
+      {error && (
+        <InPageAlert
+          type="error"
+          message="There was an error retrieving your transactions. Transactions are not available for pending accounts."
+        />
       )}
     </>
   );

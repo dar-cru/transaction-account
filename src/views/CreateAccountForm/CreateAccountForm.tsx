@@ -1,12 +1,12 @@
+import { useState } from "react";
 import { Formik, Form } from "formik";
+import { uuid } from "uuidv4";
 import { useDispatch } from "react-redux";
 import * as Yup from "yup";
 import InputField from "../../components/InputField";
 import { addNewAccount } from "../../slices/accountsSlice";
 import { Account, AccountStatus } from "../../types";
-import { uuid } from "uuidv4";
 import Button from "../../components/Button";
-import { useState } from "react";
 import InPageAlert from "../../components/InPageAlert/InPageAlert";
 
 const alphaNumericRegex = /^[A-Za-z0-9]+(?: +[A-Za-z0-9]+)*$/;

@@ -34,7 +34,7 @@ const AccountsList = ({ accounts, isLoading, errorMsg }: AccountsProps) => {
             </CardContainer>
           );
         })}
-      {accounts?.length < 1 && !isLoading && (
+      {errorMsg && (
         <InPageAlert
           type="error"
           message="There was an error retrieving your accounts"
