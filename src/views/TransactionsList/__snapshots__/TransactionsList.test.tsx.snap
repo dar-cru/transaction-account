@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsList /> renders the login form if there is no authentication 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.c2:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.c2:hover {
+  background-color: #ddd;
+}
+
+.c3 {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+<div>
+  <div
+    style="width: 80%; margin: 0px auto;"
+  >
+    <table
+      class="c0"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="c1"
+          >
+            Transaction Name
+          </th>
+          <th
+            class="c1"
+          >
+            Amount
+          </th>
+          <th
+            class="c1"
+          >
+            Transaction Type
+          </th>
+          <th
+            class="c1"
+          >
+            Date
+          </th>
+        </tr>
+        <tr
+          class="c2"
+        >
+          <td
+            class="c3"
+          >
+            Uber Eats
+          </td>
+          <td
+            class="c3"
+          >
+            $50.22
+          </td>
+          <td
+            class="c3"
+          >
+            debit
+          </td>
+          <td
+            class="c3"
+          >
+            2021-01-02
+          </td>
+        </tr>
+        <tr
+          class="c2"
+        >
+          <td
+            class="c3"
+          >
+            Some shopping mall
+          </td>
+          <td
+            class="c3"
+          >
+            $150.22
+          </td>
+          <td
+            class="c3"
+          >
+            debit
+          </td>
+          <td
+            class="c3"
+          >
+            2021-01-04
+          </td>
+        </tr>
+        <tr
+          class="c2"
+        >
+          <td
+            class="c3"
+          >
+            Colworths Supermaket
+          </td>
+          <td
+            class="c3"
+          >
+            $350.22
+          </td>
+          <td
+            class="c3"
+          >
+            debit
+          </td>
+          <td
+            class="c3"
+          >
+            2021-01-04
+          </td>
+        </tr>
+        <tr
+          class="c2"
+        >
+          <td
+            class="c3"
+          >
+            Lotto win
+          </td>
+          <td
+            class="c3"
+          >
+            $2.50
+          </td>
+          <td
+            class="c3"
+          >
+            credit
+          </td>
+          <td
+            class="c3"
+          >
+            2021-01-04
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

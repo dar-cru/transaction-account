@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountsList /> renders the login form if there is no authentication 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  min-width: 320px;
+  min-height: 104px;
+}
+
+.c0:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.c4 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  color: crimson;
+  margin-bottom: -10px;
+}
+
+.c1 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 10px 0;
+}
+
+.c2 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0 0 6px;
+}
+
+.c3 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  color: dodgerblue;
+}
+
+<div>
+  <div
+    style="display: flex; width: 800px; flex-flow: wrap; margin: 0px auto;"
+  >
+    <div
+      style="width: 50%;"
+    >
+      <button
+        class="c0"
+        value="1"
+      >
+        <h3
+          class="c1"
+        >
+          Progress Saver
+        </h3>
+        <h4
+          class="c2"
+        >
+          savings
+           account
+        </h4>
+        <span>
+          $280,500.22
+        </span>
+        <span
+          class="c3"
+        >
+          View Transactions 
+          &gt;
+        </span>
+      </button>
+    </div>
+    <div
+      style="width: 50%;"
+    >
+      <button
+        class="c0"
+        value="2"
+      >
+        <span
+          class="c4"
+        >
+          <i>
+            Pending
+          </i>
+        </span>
+        <h3
+          class="c1"
+        >
+          Every day account
+        </h3>
+        <h4
+          class="c2"
+        >
+          debit
+           account
+        </h4>
+        <span>
+          $0.00
+        </span>
+      </button>
+    </div>
+    <div
+      style="width: 50%;"
+    >
+      <button
+        class="c0"
+        value="3"
+      >
+        <span
+          class="c4"
+        >
+          <i>
+            Pending
+          </i>
+        </span>
+        <h3
+          class="c1"
+        >
+          Home Loan
+        </h3>
+        <h4
+          class="c2"
+        >
+          mortgage
+           account
+        </h4>
+        <span>
+          -$600,000.22
+        </span>
+      </button>
+    </div>
+    <div
+      style="width: 50%;"
+    >
+      <button
+        class="c0"
+        value="4"
+      >
+        <span
+          class="c4"
+        >
+          <i>
+            Pending
+          </i>
+        </span>
+        <h3
+          class="c1"
+        >
+          Qantas Black
+        </h3>
+        <h4
+          class="c2"
+        >
+          credit
+           account
+        </h4>
+        <span>
+          -$340.22
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

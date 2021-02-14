@@ -1,0 +1,99 @@
+{
+  "accounts": [
+    {
+      "name": "Progress Saver",
+      "type": "savings",
+      "id": 1,
+      "status": "active",
+      "balance": 280500.22
+    },
+    {
+      "name": "Every day account",
+      "type": "debit",
+      "id": 2,
+      "status": "pending",
+      "balance": 0
+    },
+    {
+      "name": "Qantas Black",
+      "type": "credit",
+      "id": 3,
+      "status": "active",
+      "balance": 340.22
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "accountNumber": 1,
+      "transactions": [
+        {
+          "name": "Uber Eats",
+          "amount": 50.22,
+          "type": "debit",
+          "dateTime": "2021-01-02"
+        },
+        {
+          "name": "Some shopping mall",
+          "amount": 150.22,
+          "type": "debit",
+          "dateTime": "2021-01-04"
+        },
+        {
+          "name": "Colworths Supermaket",
+          "amount": 350.22,
+          "type": "debit",
+          "dateTime": "2021-01-04"
+        },
+        {
+          "name": "Lotto win",
+          "amount": 2.5,
+          "type": "credit",
+          "dateTime": "2021-01-04"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "accountNumber": 3,
+      "transactions": [
+        {
+          "name": "Uber Eats",
+          "amount": 50.22,
+          "type": "debit",
+          "dateTime": "2021-01-02"
+        },
+        {
+          "name": "Some shopping mall",
+          "amount": 150.22,
+          "type": "debit",
+          "dateTime": "2021-01-04"
+        },
+        {
+          "name": "OpenZipAfter Pay",
+          "amount": 22.22,
+          "type": "debit",
+          "dateTime": "2021-01-04"
+        },
+        {
+          "name": "SportsPointsBet",
+          "amount": 12.5,
+          "type": "debit",
+          "dateTime": "2021-01-04"
+        },
+        {
+          "name": "OpenZipAfter Pay",
+          "amount": 22.22,
+          "type": "debit",
+          "dateTime": "2021-01-11"
+        },
+        {
+          "name": "OpenZipAfter Pay",
+          "amount": 22.22,
+          "type": "debit",
+          "dateTime": "2021-01-18"
+        }
+      ]
+    }
+  ]
+}
